@@ -1,0 +1,59 @@
+/* css reset */
+
+*:not(input, button) {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+
+:root {
+    --primary-color: #339c66;
+    --complementary-color: #d94e36;
+    --basic-font-size: 24px;
+}
+
+
+body {
+    font-size: var(--basic-font-size);
+}
+
+div {
+    /*border: solid 1vw tomato;
+    min-width: 10vw; */
+    text-align: center;
+    border: solid 1vw tomato;
+}
+
+#top-nav {
+    background-color: var(--primary-color);
+    padding: 0.667em 0 0.667em 0;
+    font-weight: bold;
+
+}
+
+
+#summoner-info {
+    padding-top: 1rem;
+}
+
+#summoner-info p {
+    border: solid 1vw tomato;
+}
+
+#summoner-info-text {
+    width:45%;
+    display: inline-block;
+}
+
+#summoner-info-img {
+    display: inline-block;
+    width:45%;
+    border: solid 1vw tomato;
+    vertical-align:top;
+}
+
+#summoner-info-img img {
+    height:100%;
+    vertical-align:top;
+}

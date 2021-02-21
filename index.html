@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>League of Legends</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div id="top-nav">
+            Summoner Info
+        </div>
+        <div id="input-div">
+            <!--<label for="summoner-name-input">Name:</label>-->
+            <input id="summoner-name-input" name="summoner-name-input" value="enter name">
+
+            <!--<label for="summoner-region-select">Region:</label>-->
+            <select id="summoner-region-select" name="summoner-region-select">
+                <option value="euw1">euw1</option>
+                <option value="eun1">eun1</option>
+            </select>
+            <button type="submit" id="submit-button">Submit</button>
+        </div>
+
+        <div id="summoner-info">
+            <div id="summoner-info-text">
+                <p id="summoner-name">Unknown name</p>
+                <p id="summoner-level">Unknown level</p>
+                <p id="summoner-total-mastery">Unknown mastery level</p>
+            </div>
+            <div id="summoner-info-img">
+                <img id="summoner-icon" src="img/question-mark.png">
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
