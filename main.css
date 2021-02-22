@@ -19,10 +19,8 @@ body {
 }
 
 div {
-    /*border: solid 1vw tomato;
     min-width: 10vw; */
     text-align: center;
-    border: solid 1vw tomato;
 }
 
 #top-nav {
@@ -37,9 +35,6 @@ div {
     padding-top: 1rem;
 }
 
-#summoner-info p {
-    border: solid 1vw tomato;
-}
 
 #summoner-info-text {
     width:45%;
@@ -49,7 +44,6 @@ div {
 #summoner-info-img {
     display: inline-block;
     width:45%;
-    border: solid 1vw tomato;
     vertical-align:top;
 }
 
