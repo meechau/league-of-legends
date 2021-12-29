@@ -12,7 +12,6 @@ HTTP Status Code 	Reason
 502 	Bad gateway
 503 	Service unavailable
 504 	Gateway timeout
-bububub
 */
 
 
@@ -148,7 +147,6 @@ function handleSummonerInfo() {
 
 
 /*
-//DRY it
 
 //append function to button
 document.getElementById("submit-button").onclick = function(){handleSummonerInfo()};
